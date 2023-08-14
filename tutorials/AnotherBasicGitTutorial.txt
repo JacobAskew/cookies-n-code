@@ -1,0 +1,49 @@
+This was written by ChatGPT in AUG 2023 ...
+
+I'd be happy to help you create a Git repository and store your Python script online! 
+Let's break it down into simple steps:
+
+
+Step 1: Install Git (if not already installed)
+Ask a grown-up to help you install Git on your computer if it's not already installed. You can download it from the Git website.
+
+Step 2: Sign Up on GitHub (if not already done)
+Ask a grown-up to help you create an account on GitHub. It's a website where you can store your code online.
+
+Step 3: Create a New Repository on GitHub
+Log in to your GitHub account and click the "+" sign at the top right corner. Then select "New repository."
+Give your repository a name (like "my-python-script") and a description if you want.
+Choose whether you want the repository to be public (everyone can see) or private (only you can see).
+Click the "Create repository" button.
+You can give it a .readme file and use the MIT license (optional)
+
+Step 4: Open a Terminal or Command Prompt
+This is a special place where you can type commands to your computer. It might look a bit like typing in a chat.
+
+Step 5: Navigate to Your Script's Folder
+Type "cd path/to/your/script/folder" (replace "path/to/your/script/folder" with the actual path to your script's folder).
+Press Enter. This will take you to the folder where your Python script is.
+
+Step 6: Initialize a Git Repository
+Type "git init" and press Enter. This tells Git that you want to start tracking changes in this folder.
+
+Step 7: Add Your Script to Git
+Type "git add your_script.py" (replace "your_script.py" with the actual name of your Python script).
+Press Enter. This tells Git to start watching your script for changes.
+
+Step 8: Commit Your Changes
+Type "git commit -m 'Initial commit'" and press Enter. This saves a snapshot of your script as it is right now.
+
+Step 9: Connect to GitHub
+Go back to your GitHub repository's page and copy the "HTTPS" link (you'll find it under the green "Code" button).
+
+Step 10: Link Your Local Repository to GitHub
+In the terminal, type "git remote add origin https://github.com/your-username/your-repository.git" (replace "your-username" with your GitHub username and "your-repository" with your repository name).
+Press Enter. This connects your local repository to the one on GitHub.
+
+Step 11: Push Your Code to GitHub
+Type "git push -u origin main" and press Enter. This sends your code to GitHub.
+
+
+From now on, you can make changes to your script and follow these steps to commit and push those changes to GitHub. Just remember to use "git add" to track changes, "git commit" to save snapshots, and "git push" to send changes to GitHub. And that's it! You're now using Git to store and manage your Python script online. Great job! 🎉
+
